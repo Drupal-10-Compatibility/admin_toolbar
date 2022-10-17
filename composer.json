@@ -115,6 +115,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/admin_toolbar": {
+                "Issue #3158256: Replace deprecated library core/jquery.once with core/once": "https://git.drupalcode.org/project/admin_toolbar/-/merge_requests/21.patch"
+            }
         }
     },
     "scripts": {
